@@ -1,3 +1,4 @@
+#este codigo va en una carpeta nueva: bluetooth-pc
 # import asyncio
 # from bleak import BleakScanner
 
