@@ -1,5 +1,4 @@
-# main.py -- put your code here!
-#comunicacion bluetooth
+# main.py -- put your code here!#comunicacion bluetooth
 from machine import Pin
 from time import sleep
 from BLE import BLEUART #bluetooth low energy (celulares, audifonos, parlantes, moviles)
@@ -17,4 +16,3 @@ def transmito():
 
 usart.irq(handler=transmito)
 #verificar que este prendido el bluetooth del pc
-
